@@ -6,3 +6,13 @@ def sum(num1, num2):
 print(sum(4, 5))
 
  #this is where the function values get printed
+
+def subtract(num1, num2):
+    if num1 >= num2:
+        difference = num1 - num2
+    else:
+        difference = f"{num1} is smaller than {num2}"
+    return difference
+
+print(subtract(9,3))
+print(subtract(8,9))
