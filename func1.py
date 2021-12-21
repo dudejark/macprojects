@@ -13,6 +13,7 @@ def subtract(num1, num2):
     else:
         difference = f"{num1} is smaller than {num2}"
     return difference
+ #this is where the function subtract values get printed
 
 print(subtract(9,3))
 print(subtract(8,9))
